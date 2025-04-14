@@ -170,7 +170,7 @@ export default function JSONTokenSorter() {
   const secondaryButtonStyle = `${buttonBaseStyle} bg-gray-200 hover:bg-gray-300 hover:shadow active:bg-gray-400 active:shadow-inner active:scale-95`;
 
   return (
-    <div className="flex flex-col gap-6 p-6 max-w-4xl mx-auto">
+    <div className="flex flex-col gap-6 p-6 w-full max-w-4xl mx-auto">
       <h1 className="text-2xl font-bold">Design Token Alphabetical Sorter</h1>
       
       <div className="flex flex-col gap-2">
